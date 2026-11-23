@@ -1,0 +1,21 @@
+{
+  "n_requests": 200,
+  "device": "CPU",
+  "models": {
+    "tfidf": {
+      "requests": 200,
+      "mean_ms": 2.13,
+      "p50_ms": 2.11,
+      "p95_ms": 2.18,
+      "throughput_per_s": 468.9
+    },
+    "embeddings": {
+      "requests": 200,
+      "mean_ms": 10.8,
+      "p50_ms": 10.72,
+      "p95_ms": 12.59,
+      "throughput_per_s": 92.6
+    }
+  },
+  "note": "single process, single request at a time; the embedding path includes frozen MiniLM encoding"
+}

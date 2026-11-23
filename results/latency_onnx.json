@@ -1,0 +1,11 @@
+{
+  "model": "models/embedder_onnx/model_quantized.onnx",
+  "cosine_similarity_vs_pytorch": 0.96822,
+  "test_accuracy_with_onnx_embeddings": 0.9023,
+  "n_requests": 200,
+  "mean_ms": 2.05,
+  "p50_ms": 1.97,
+  "p95_ms": 2.9,
+  "throughput_per_s": 486.2,
+  "note": "dynamically quantized int8 ONNX, single request at a time; classifier is the same frozen-feature logistic regression"
+}

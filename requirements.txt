@@ -1,0 +1,14 @@
+# pinned for reproducible `make train && make eval`
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+datasets==5.2.0
+pyarrow==25.0.1
+sentence-transformers==6.3.0
+transformers==5.20.2
+torch==2.14.1
+fastapi==0.162.5
+uvicorn==0.54.0
+matplotlib==3.10.9
+joblib==1.6.0

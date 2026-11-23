@@ -1,0 +1,1 @@
+onnxruntime==1.23.2  # only needed for scripts/benchmark_onnx.py and the embeddings-onnx API option

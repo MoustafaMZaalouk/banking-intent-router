@@ -1,0 +1,11 @@
+{
+  "tfidf_feature_seconds": 0.19,
+  "tfidf_fit_seconds": 5.86,
+  "embedding_encode_train_seconds": 35.79,
+  "embedding_encode_test_seconds": 11.19,
+  "embedding_fit_seconds": 1.18,
+  "total_seconds": 57.96,
+  "hardware": "x86_64 CPU, x86_64",
+  "python": "3.10.12",
+  "note": "wall-clock on this machine; embedding weights are downloaded once and frozen, never trained"
+}
