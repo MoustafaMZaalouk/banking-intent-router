@@ -1,5 +1,9 @@
 # Banking Intent Router
 
+[![CI](https://github.com/MoustafaMZaalouk/banking-intent-router/workflows/CI/badge.svg)](https://github.com/MoustafaMZaalouk/banking-intent-router/blob/main/.github/workflows/ci.yml)
+
+*Live workflow status, not a production-readiness or model-quality rating.*
+
 Classifies customer-service queries into the 77 intents of the real
 [BANKING77](https://huggingface.co/datasets/PolyAI/banking77) dataset.
 Compares a TF-IDF baseline against frozen pretrained sentence embeddings,
